@@ -231,6 +231,7 @@ body {
 
   .header__social-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100px;
     padding-left: 0;
@@ -283,6 +284,7 @@ body {
 
   .navigation__list {
     display: flex;
+    flex-wrap: wrap;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -384,19 +386,14 @@ body {
 
   .header__menu {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
 
     list-style: none;
-  }
-
-  .menu__item {
-    margin-right: 44px;
-  }
-
-  .menu__item:last-child {
-    margin-right: 0;
   }
 
   .menu__link {
